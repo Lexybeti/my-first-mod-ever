@@ -1,3 +1,5 @@
 {
-  "item.testmod.jade": "Jade"
+  "item.testmod.jade": "Jade",
+
+  "block.testmod.jade_block": "Jade Block"
 }

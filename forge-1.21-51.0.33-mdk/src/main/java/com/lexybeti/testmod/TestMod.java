@@ -1,5 +1,6 @@
 package com.lexybeti.testmod;
 
+import com.lexybeti.testmod.block.ModBlocks;
 import com.lexybeti.testmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -80,6 +81,7 @@ public class TestMod
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -106,6 +108,10 @@ public class TestMod
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.JADE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.JADE_BLOCK);
         }
     }
 
