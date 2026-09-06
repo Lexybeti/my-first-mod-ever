@@ -1,5 +1,8 @@
 {
   "item.testmod.jade": "Jade",
 
-  "block.testmod.jade_block": "Jade Block"
+  "block.testmod.jade_block": "Jade Block",
+
+  "creativetab.testmod.jade_items": "Jade Items",
+  "creativetab.testmod.jade_blocks": "Jade Blocks"
 }

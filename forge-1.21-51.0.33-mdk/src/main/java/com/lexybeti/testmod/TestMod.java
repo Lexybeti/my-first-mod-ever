@@ -1,6 +1,7 @@
 package com.lexybeti.testmod;
 
 import com.lexybeti.testmod.block.ModBlocks;
+import com.lexybeti.testmod.item.ModCreativeModeTabs;
 import com.lexybeti.testmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -79,6 +80,8 @@ public class TestMod
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
