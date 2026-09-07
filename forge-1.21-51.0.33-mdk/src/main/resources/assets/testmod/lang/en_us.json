@@ -3,6 +3,7 @@
   "item.testmod.raw_jade": "Raw Jade",
 
   "block.testmod.jade_block": "Jade Block",
+  "block.testmod.raw_jade_block": "Raw Jade Block",
 
   "creativetab.testmod.jade_items": "Jade Items",
   "creativetab.testmod.jade_blocks": "Jade Blocks"
