@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.testmod.jade_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.JADE.get());
+                        output.accept(ModItems.RAW_JADE.get());
 
                     })
                     .build());

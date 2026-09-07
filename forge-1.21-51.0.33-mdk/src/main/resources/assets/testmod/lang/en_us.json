@@ -1,5 +1,6 @@
 {
   "item.testmod.jade": "Jade",
+  "item.testmod.raw_jade": "Raw Jade",
 
   "block.testmod.jade_block": "Jade Block",
 
