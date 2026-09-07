@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:jade_block",
+    "testmod:raw_jade_block",
+    "testmod:jade_ore_block"
+  ]
+}
