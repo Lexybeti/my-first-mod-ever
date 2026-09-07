@@ -102,6 +102,8 @@ public class TestMod
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.JADE_BLOCK);
             event.accept(ModBlocks.RAW_JADE_BLOCK);
+            event.accept(ModBlocks.DEEPSLATE_JADE_ORE_BLOCK);
+            event.accept(ModBlocks.JADE_ORE_BLOCK);
         }
     }
 

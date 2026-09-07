@@ -4,6 +4,8 @@
 
   "block.testmod.jade_block": "Jade Block",
   "block.testmod.raw_jade_block": "Raw Jade Block",
+  "block.testmod.jade_ore_block": "Jade Ore",
+  "block.testmod.deepslate_jade_ore_block": "Deepslate Jade Ore",
 
   "creativetab.testmod.jade_items": "Jade Items",
   "creativetab.testmod.jade_blocks": "Jade Blocks"

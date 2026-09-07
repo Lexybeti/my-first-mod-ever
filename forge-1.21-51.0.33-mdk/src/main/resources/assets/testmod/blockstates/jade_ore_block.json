@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "testmod:block/jade_ore_block"
+    }
+  }
+}

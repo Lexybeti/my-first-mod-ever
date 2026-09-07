@@ -30,6 +30,9 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.testmod.jade_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.JADE_BLOCK.get());
+                        output.accept(ModBlocks.RAW_JADE_BLOCK.get());
+                        output.accept(ModBlocks.JADE_ORE_BLOCK.get());
+                        output.accept(ModBlocks.DEEPSLATE_JADE_ORE_BLOCK.get());
 
                     })
                     .build());
